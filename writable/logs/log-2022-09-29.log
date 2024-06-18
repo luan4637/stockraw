@@ -1,0 +1,256 @@
+CRITICAL - 2022-09-29 19:32:48 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:32:49 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:44:20 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:44:20 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:45:20 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:22 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:36 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:36 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:40 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:40 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:55 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:55 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:55 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:46:56 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:47:57 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:48:08 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:48:08 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:49:08 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:50:08 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:50:11 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:50:11 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:50:19 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:50:20 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:51:34 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:52:19 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:53:09 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:54:19 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:54:32 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:54:32 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:54:34 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:54:39 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 19:55:40 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

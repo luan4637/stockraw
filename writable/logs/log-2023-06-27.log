@@ -1,0 +1,122 @@
+CRITICAL - 2023-06-27 21:05:42 --> Call to a member function getStatusCode() on null
+in ROOTPATH/spark on line 100.
+
+ERROR - 2023-06-27 21:06:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'codetest'@'localhost' (using password: YES) in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect('localhost', 'codetest', Object(SensitiveParameterValue), 'codetest', 3306, '', 0)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 /Users/luan/Code/codetest/app/Repository/TransactionRepository.php(47): CodeIgniter\BaseModel->first()
+#7 /Users/luan/Code/codetest/app/Commands/RawTransaction.php(30): App\Repository\TransactionRepository->isExited('AAA')
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Commands.php(65): App\Commands\RawTransaction->run(Array)
+#9 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('rawtransaction', Array)
+#10 /Users/luan/Code/codetest/spark(98): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 /Users/luan/Code/codetest/app/Repository/TransactionRepository.php(47): CodeIgniter\BaseModel->first()
+#6 /Users/luan/Code/codetest/app/Commands/RawTransaction.php(30): App\Repository\TransactionRepository->isExited('AAA')
+#7 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Commands.php(65): App\Commands\RawTransaction->run(Array)
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('rawtransaction', Array)
+#9 /Users/luan/Code/codetest/spark(98): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2023-06-27 21:06:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `code` = :code:
+AND `date` = :date:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Repository/TransactionRepository.php(47): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Commands/RawTransaction.php(30): App\Repository\TransactionRepository->isExited('AAA')
+ 7 SYSTEMPATH/CLI/Commands.php(65): App\Commands\RawTransaction->run([])
+ 8 SYSTEMPATH/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('rawtransaction', [])
+ 9 ROOTPATH/spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-06-27 21:07:49 --> Call to a member function getStatusCode() on null
+in ROOTPATH/spark on line 100.
+
+CRITICAL - 2023-06-27 21:10:34 --> During inheritance of ArrayAccess: Uncaught ErrorException: Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:133
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Return type of ...', '/Users/luan/Cod...', 133)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(312): include_once('/Users/luan/Cod...')
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/luan/Cod...')
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPHtmlParser\\D...')
+#4 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Selector/Selector.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('PHPHtmlParser\\D...')
+#5 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/AbstractNode.php(437): PHPHtmlParser\Selector\Selector->find(Object(PHPHtmlParser\Dom\Node\HtmlNode))
+#6 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Parser.php(121): PHPHtmlParser\Dom\Node\AbstractNode->find('meta[http-equiv...', 0)
+#7 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom.php(160): PHPHtmlParser\Dom\Parser->detectCharset(Object(PHPHtmlParser\Options), 'UTF-8', Object(PHPHtmlParser\Dom\Node\HtmlNode))
+#8 /Users/luan/Code/codetest/app/Services/HistoryTransaction/AbstractRequest.php(53): PHPHtmlParser\Dom->loadStr('\r\n<!DOCTYPE htm...')
+#9 /Users/luan/Code/codetest/app/Commands/RawTransaction.php(49): App\Services\HistoryTransaction\AbstractRequest->request(Array)
+#10 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Commands.php(65): App\Commands\RawTransaction->run(Array)
+#11 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('rawtransaction', Array)
+#12 /Users/luan/Code/codetest/spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+in VENDORPATH/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-27 21:11:58 --> During inheritance of ArrayAccess: Uncaught ErrorException: Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:133
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Return type of ...', '/Users/luan/Cod...', 133)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(312): include_once('/Users/luan/Cod...')
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/luan/Cod...')
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPHtmlParser\\D...')
+#4 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Selector/Selector.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('PHPHtmlParser\\D...')
+#5 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/AbstractNode.php(437): PHPHtmlParser\Selector\Selector->find(Object(PHPHtmlParser\Dom\Node\HtmlNode))
+#6 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Parser.php(121): PHPHtmlParser\Dom\Node\AbstractNode->find('meta[http-equiv...', 0)
+#7 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom.php(160): PHPHtmlParser\Dom\Parser->detectCharset(Object(PHPHtmlParser\Options), 'UTF-8', Object(PHPHtmlParser\Dom\Node\HtmlNode))
+#8 /Users/luan/Code/codetest/app/Services/HistoryTransaction/AbstractRequest.php(53): PHPHtmlParser\Dom->loadStr('\r\n<!DOCTYPE htm...')
+#9 /Users/luan/Code/codetest/app/Commands/RawTransaction.php(49): App\Services\HistoryTransaction\AbstractRequest->request(Array)
+#10 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Commands.php(65): App\Commands\RawTransaction->run(Array)
+#11 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('rawtransaction', Array)
+#12 /Users/luan/Code/codetest/spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+in VENDORPATH/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-27 21:15:55 --> During inheritance of ArrayAccess: Uncaught ErrorException: Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:133
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Return type of ...', '/Users/luan/Cod...', 133)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(312): include_once('/Users/luan/Cod...')
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/luan/Cod...')
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPHtmlParser\\D...')
+#4 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Selector/Selector.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('PHPHtmlParser\\D...')
+#5 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/AbstractNode.php(437): PHPHtmlParser\Selector\Selector->find(Object(PHPHtmlParser\Dom\Node\HtmlNode))
+#6 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Parser.php(121): PHPHtmlParser\Dom\Node\AbstractNode->find('meta[http-equiv...', 0)
+#7 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom.php(160): PHPHtmlParser\Dom\Parser->detectCharset(Object(PHPHtmlParser\Options), 'UTF-8', Object(PHPHtmlParser\Dom\Node\HtmlNode))
+#8 /Users/luan/Code/codetest/app/Services/HistoryTransaction/AbstractRequest.php(53): PHPHtmlParser\Dom->loadStr('\r\n<!DOCTYPE htm...')
+#9 /Users/luan/Code/codetest/app/Commands/RawTransaction.php(49): App\Services\HistoryTransaction\AbstractRequest->request(Array)
+#10 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Commands.php(65): App\Commands\RawTransaction->run(Array)
+#11 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('rawtransaction', Array)
+#12 /Users/luan/Code/codetest/spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+in VENDORPATH/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-27 21:20:21 --> During inheritance of ArrayAccess: Uncaught ErrorException: Return type of PHPHtmlParser\Dom\Node\Collection::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php:133
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Return type of ...', '/Users/luan/Cod...', 133)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(312): include_once('/Users/luan/Cod...')
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/luan/Cod...')
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPHtmlParser\\D...')
+#4 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Selector/Selector.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('PHPHtmlParser\\D...')
+#5 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/AbstractNode.php(437): PHPHtmlParser\Selector\Selector->find(Object(PHPHtmlParser\Dom\Node\HtmlNode))
+#6 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Parser.php(121): PHPHtmlParser\Dom\Node\AbstractNode->find('meta[http-equiv...', 0)
+#7 /Users/luan/Code/codetest/vendor/paquettg/php-html-parser/src/PHPHtmlParser/Dom.php(160): PHPHtmlParser\Dom\Parser->detectCharset(Object(PHPHtmlParser\Options), 'UTF-8', Object(PHPHtmlParser\Dom\Node\HtmlNode))
+#8 /Users/luan/Code/codetest/app/Services/HistoryTransaction/AbstractRequest.php(53): PHPHtmlParser\Dom->loadStr('\r\n<!DOCTYPE htm...')
+#9 /Users/luan/Code/codetest/app/Commands/RawTransaction.php(49): App\Services\HistoryTransaction\AbstractRequest->request(Array)
+#10 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Commands.php(65): App\Commands\RawTransaction->run(Array)
+#11 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CLI/Console.php(37): CodeIgniter\CLI\Commands->run('rawtransaction', Array)
+#12 /Users/luan/Code/codetest/spark(98): CodeIgniter\CLI\Console->run()
+#13 {main}
+in VENDORPATH/paquettg/php-html-parser/src/PHPHtmlParser/Dom/Node/Collection.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

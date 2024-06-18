@@ -1,0 +1,232 @@
+CRITICAL - 2022-11-16 20:56:00 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/HistoryReport.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/HistoryReport.php', 51, [...])
+ 2 APPPATH/Controllers/HistoryReport.php(51): file_get_contents('ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\HistoryReport->stocks()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistoryReport))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 20:56:07 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/HistoryReport.php on line 51.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/HistoryReport.php', 51, [...])
+ 2 APPPATH/Controllers/HistoryReport.php(51): file_get_contents('ROOTPATH/public')
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\HistoryReport->stocks()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistoryReport))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:34:29 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:34:29 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:34:39 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:34:39 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:34:50 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:34:50 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:02 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:02 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:11 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:11 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:22 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:22 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:31 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:31 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:41 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:41 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:52 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:35:52 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:36:01 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:36:01 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:36:11 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:36:11 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:36:19 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(44): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-16 21:36:19 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Controllers/ApiStock.php on line 105.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', 'APPPATH/Controllers/ApiStock.php', 105, [...])
+ 2 APPPATH/Controllers/ApiStock.php(105): file_get_contents('ROOTPATH/public')
+ 3 APPPATH/Controllers/ApiStock.php(65): App\Controllers\ApiStock->getLastStocks()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

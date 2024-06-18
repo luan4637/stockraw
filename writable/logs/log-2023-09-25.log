@@ -1,0 +1,136 @@
+ERROR - 2023-09-25 13:00:33 --> Error connecting to the database: mysqli_sql_exception: Operation timed out in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect('192.168.100.173', 'test', Object(SensitiveParameterValue), 'codetest', 3306, '', 0)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/luan/Code/codetest/app/Repository/GroupRepository.php(27): CodeIgniter\BaseModel->findAll()
+#7 /Users/luan/Code/codetest/app/Controllers/Api/ApiGroup.php(37): App\Repository\GroupRepository->getAll()
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Api\ApiGroup->groupActivedList()
+#9 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiGroup))
+#10 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/luan/Code/codetest/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Operation timed out in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/luan/Code/codetest/app/Repository/GroupRepository.php(27): CodeIgniter\BaseModel->findAll()
+#6 /Users/luan/Code/codetest/app/Controllers/Api/ApiGroup.php(37): App\Repository\GroupRepository->getAll()
+#7 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Api\ApiGroup->groupActivedList()
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiGroup))
+#9 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/luan/Code/codetest/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-25 13:00:33 --> Error connecting to the database: mysqli_sql_exception: Operation timed out in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect('192.168.100.173', 'test', Object(SensitiveParameterValue), 'codetest', 3306, '', 0)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*\nFR...', Array, false)
+#4 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(30): App\Repository\StockDataRepository->getLastestRecord()
+#6 /Users/luan/Code/codetest/app/Repository/Cache/StockDataRepositoryCache.php(37): App\Repository\StockDataRepository->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+#7 /Users/luan/Code/codetest/app/Controllers/Api/ApiStockData.php(26): App\Repository\Cache\StockDataRepositoryCache->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Api\ApiStockData->index()
+#9 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiStockData))
+#10 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/luan/Code/codetest/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Operation timed out in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*\nFR...', Array, false)
+#3 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(80): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(30): App\Repository\StockDataRepository->getLastestRecord()
+#5 /Users/luan/Code/codetest/app/Repository/Cache/StockDataRepositoryCache.php(37): App\Repository\StockDataRepository->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+#6 /Users/luan/Code/codetest/app/Controllers/Api/ApiStockData.php(26): App\Repository\Cache\StockDataRepositoryCache->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+#7 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Api\ApiStockData->index()
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiStockData))
+#9 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/luan/Code/codetest/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-25 13:00:33 --> Error connecting to the database: mysqli_sql_exception: Operation timed out in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect('192.168.100.173', 'test', Object(SensitiveParameterValue), 'codetest', 3306, '', 0)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*\nFR...', Array, false)
+#4 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(80): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(30): App\Repository\StockDataRepository->getLastestRecord()
+#6 /Users/luan/Code/codetest/app/Repository/Cache/StockDataRepositoryCache.php(48): App\Repository\StockDataRepository->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+#7 /Users/luan/Code/codetest/app/Controllers/Api/ApiStockData.php(47): App\Repository\Cache\StockDataRepositoryCache->getLastestStockDataNoCache(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Api\ApiStockData->sell()
+#9 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiStockData))
+#10 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Users/luan/Code/codetest/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Operation timed out in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*\nFR...', Array, false)
+#3 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(80): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(30): App\Repository\StockDataRepository->getLastestRecord()
+#5 /Users/luan/Code/codetest/app/Repository/Cache/StockDataRepositoryCache.php(48): App\Repository\StockDataRepository->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+#6 /Users/luan/Code/codetest/app/Controllers/Api/ApiStockData.php(47): App\Repository\Cache\StockDataRepositoryCache->getLastestStockDataNoCache(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+#7 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Api\ApiStockData->sell()
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiStockData))
+#9 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/luan/Code/codetest/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-09-25 13:00:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `groups`', [], false)
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Repository/GroupRepository.php(27): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Api/ApiGroup.php(37): App\Repository\GroupRepository->getAll()
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Api\ApiGroup->groupActivedList()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiGroup))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 13:00:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*
+FROM `stock_data` AS `s`
+WHERE `createdAt` = :createdAt:
+AND `id` = (SELECT MAX(id) FROM stock_data)', [...], false)
+ 3 APPPATH/Repository/StockDataRepository.php(80): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Repository/StockDataRepository.php(30): App\Repository\StockDataRepository->getLastestRecord()
+ 5 APPPATH/Repository/Cache/StockDataRepositoryCache.php(48): App\Repository\StockDataRepository->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+ 6 APPPATH/Controllers/Api/ApiStockData.php(47): App\Repository\Cache\StockDataRepositoryCache->getLastestStockDataNoCache(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Api\ApiStockData->sell()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiStockData))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-25 13:00:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Operation timed out
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `s`.*
+FROM `stock_data` AS `s`
+WHERE `createdAt` = :createdAt:
+AND `id` = (SELECT MAX(id) FROM stock_data)', [...], false)
+ 3 APPPATH/Repository/StockDataRepository.php(80): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Repository/StockDataRepository.php(30): App\Repository\StockDataRepository->getLastestRecord()
+ 5 APPPATH/Repository/Cache/StockDataRepositoryCache.php(37): App\Repository\StockDataRepository->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+ 6 APPPATH/Controllers/Api/ApiStockData.php(26): App\Repository\Cache\StockDataRepositoryCache->getLastestStockData(Object(App\Libraries\StockData\Filter), Object(App\Libraries\StockData\SortOrder))
+ 7 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Api\ApiStockData->index()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiStockData))
+ 9 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

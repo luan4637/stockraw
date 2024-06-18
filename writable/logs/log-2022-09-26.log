@@ -1,0 +1,32 @@
+CRITICAL - 2022-09-26 20:27:21 --> Cache unable to write to /Users/luan/Code/codetest/writable/cache/.
+in SYSTEMPATH/Cache/Handlers/FileHandler.php on line 61.
+ 1 SYSTEMPATH/Cache/Handlers/FileHandler.php(61): CodeIgniter\Cache\Exceptions\CacheException::forUnableToWrite('ROOTPATH/writable/cache/')
+ 2 SYSTEMPATH/Cache/CacheFactory.php(60): CodeIgniter\Cache\Handlers\FileHandler->__construct(Object(Config\Cache))
+ 3 SYSTEMPATH/Config/Services.php(113): CodeIgniter\Cache\CacheFactory::getHandler(Object(Config\Cache))
+ 4 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+ 5 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('cache', [...])
+ 6 SYSTEMPATH/Config/Services.php(108): CodeIgniter\Config\BaseService::getSharedInstance('cache', null)
+ 7 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::cache()
+ 8 SYSTEMPATH/Common.php(69): CodeIgniter\Config\BaseService::__callStatic('cache', [])
+ 9 SYSTEMPATH/CodeIgniter.php(658): cache()
+10 SYSTEMPATH/CodeIgniter.php(322): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+11 SYSTEMPATH/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+12 ROOTPATH/spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2022-09-26 20:28:02 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(66): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->countGroup()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-26 20:28:02 --> Trying to access array offset on value of type null
+in APPPATH/Libraries/Stock/StockMoreInfo.php on line 105.
+ 1 APPPATH/Libraries/Stock/StockMoreInfo.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH/Libraries/Stock/StockMoreInfo.php', 105)
+ 2 APPPATH/Controllers/Apistock.php(45): App\Libraries\Stock\StockMoreInfo->addMoreInfo([...])
+ 3 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\ApiStock->index()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApiStock))
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

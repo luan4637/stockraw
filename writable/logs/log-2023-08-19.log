@@ -1,0 +1,36 @@
+CRITICAL - 2023-08-19 10:46:21 --> Undefined array key "2023-08-10"
+in APPPATH/Controllers/Api/ApiFilterData.php on line 51.
+ 1 APPPATH/Controllers/Api/ApiFilterData.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "2023-08-10"', '/Users/luan/Code/codetest/app/Controllers/Api/ApiFilterData.php', 51)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Api\ApiFilterData->filter3up2down()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiFilterData))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-19 10:46:28 --> Undefined array key "2023-08-10"
+in APPPATH/Controllers/Api/ApiFilterData.php on line 51.
+ 1 APPPATH/Controllers/Api/ApiFilterData.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "2023-08-10"', '/Users/luan/Code/codetest/app/Controllers/Api/ApiFilterData.php', 51)
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Api\ApiFilterData->filter3up2down()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ApiFilterData))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-19 11:08:05 --> mysqli_sql_exception: Unknown column 'g.id' in 'group statement' in /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT `created...', 0)
+#1 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `created...')
+#2 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `created...')
+#3 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `created...', Array, false)
+#4 /Users/luan/Code/codetest/app/Repository/StockDataRepository.php(70): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/luan/Code/codetest/app/Repository/Cache/StockDataRepositoryCache.php(56): App\Repository\StockDataRepository->getDates()
+#6 /Users/luan/Code/codetest/app/Controllers/Home.php(32): App\Repository\Cache\StockDataRepositoryCache->getDates()
+#7 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\Home->history()
+#8 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 /Users/luan/Code/codetest/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/luan/Code/codetest/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-19 11:08:05 --> Call to a member function getResultArray() on bool
+in APPPATH/Repository/StockDataRepository.php on line 70.
+ 1 APPPATH/Repository/Cache/StockDataRepositoryCache.php(56): App\Repository\StockDataRepository->getDates()
+ 2 APPPATH/Controllers/Home.php(32): App\Repository\Cache\StockDataRepositoryCache->getDates()
+ 3 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->history()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

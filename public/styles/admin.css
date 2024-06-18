@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+ul.table {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.table > li {
+    padding: 0;
+}
+.table-row {
+    display: flex;
+}
+.table-row > p {
+    flex: 2;
+    margin: 0;
+    padding: 0.2em;
+}
+.table-row > p:nth-child(3) {
+    flex: 6;
+}
+.table-row > p:nth-child(4) {
+    flex: 8;
+}
+.table-row > p:last-child {
+    flex: 1;
+    text-align: right;
+    white-space: nowrap;
+}
+.table-row > p input,
+.table-row > p select {
+    padding: 0.2em 0.5em;
+    width: 100%;
+}
+.table-row > p .btn {
+    padding: 0.2em 0.5em;
+}
